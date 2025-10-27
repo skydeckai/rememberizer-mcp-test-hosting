@@ -26,7 +26,7 @@ dev = [
 ]
 
 [project.scripts]
-rememberizer-mcp-test-hosting = "mcp_server_rememberizer:main"
+rememberizer-mcp-test-hosting = "mcp_server_rememberizer.server:main"
 
 # ==== isort ====
 [tool.isort]
