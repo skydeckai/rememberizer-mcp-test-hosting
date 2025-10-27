@@ -1,9 +1,9 @@
 # Rememberizer MCP Server for Common Knowledge
 <!-- CK_DESCRIPTION_START -->
-{{CK_DESCRIPTION}}
+Test MCP server hosting with MSeeP
 <!-- CK_DESCRIPTION_END -->
 
-Please note that `{{REPO_NAME}}` is currently in development and the functionality may be subject to change.
+Please note that `rememberizer-mcp-test-hosting` is currently in development and the functionality may be subject to change.
 
 ## Components
 
@@ -66,7 +66,7 @@ The server provides access to two types of resources: Documents or Slack discuss
 
 ### Via MseeP AI Helper App
 
-If you have the MseeP AI Helper app installed, you can search for "Rememberizer" and install the {{REPO_NAME}}.
+If you have the MseeP AI Helper app installed, you can search for "Rememberizer" and install the rememberizer-mcp-test-hosting.
 
 ![MseeP AI Helper](https://github.com/user-attachments/assets/691d2518-f198-4eb2-b594-9638545f53ac)
 
@@ -80,7 +80,7 @@ Add this to your `claude_desktop_config.json`:
 "mcpServers": {
   "rememberizer": {
       "command": "uvx",
-      "args": ["{{REPO_NAME}}"]
+      "args": ["rememberizer-mcp-test-hosting"]
     }
 }
 ```
